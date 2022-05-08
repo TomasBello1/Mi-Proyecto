@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    font-family:'Roboto', sans-serif;   
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo de la pagina */
+body{
+    background-color: aliceblue;
+}
+.barra-nav{
+    background-color: #2163c5;
+    color: #2163c5;
+    margin-top: -13px;
+    margin-left: -2px;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(63, 55, 55);
+}
+h3{
+    font-size: large;
+    font-family:'Bebas Neue', cursive;
+    margin-bottom: -35px;
+    margin-left: 10px;
+    color: #2163c5;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-family:'Roboto', sans-serif;    
+    margin-top: 20px;
+    margin-left: 10px;
+}
+footer{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* Navegadores Principales */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    flex-wrap: wrap;
+    height: 45px;
+}
+nav a{
+    color: #2163c5;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+    font-family:'Roboto', sans-serif;
+}
+.nav-a-1:hover{
+    color: #5c86c5;
+}
+
+/* Sección "Inicio" */
+.Logo2{
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10px;
+    color: #2163c5;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 5px;
+}
+.barra-nav-2{
+    background-color: #2163c5;
+    color: #2163c5;
+    margin-top: -13px;
+    margin-left: -1px;
+}
+.nav-2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    flex-wrap: wrap;
+    height: 45px;
+}
+.nav-a-2{
+    color: #2163c5;
+    text-decoration: none;
+    margin-top: -13px;
+    font-family:'Roboto', sans-serif;
+}
+.nav-a-2:hover{
+    color: #5c86c5;
+}
+.parrafo-inicio{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.servicios{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.li-1{
+    margin-top: 10px;
+}
+li{
+    margin-top:5px;
+    margin-left:15px;
+}
+
+/* sección "Armá tu PC" */ 
+.titulo{
+    color: rgb(63, 55, 55);
+}
+.armá-h2{
+    font-weight: 700;
+    font-family:'Roboto', sans-serif;    
+    font-size: large;
+    color: #2163c5;
+    text-align: center;
+}
+.armá-p-2{
+    margin: 5px;
+    font-size: medium;
+    text-align: center;
+}
+.armadores-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+.armador-intel{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+.h2-intel{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    border-top: 1px solid black;
+    font-weight: 700;
+    font-size: small;
+    font-family:'Roboto', sans-serif;    
+    text-align: center;
+    color: #2163c5;
+}
+.armador-amd{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+.h2-amd{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    border-top: 1px solid black;
+    font-weight: 700;
+    font-size: small;
+    font-family:'Roboto', sans-serif;    
+    text-align: center;
+    color: #2163c5;
+}
+
+/* Navegadores de "Computadoras" */
+.nav-computadoras{
+    text-align: center;
+    background-color: aliceblue;
+}
+.nav-a-computadoras{
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: #2163c5;
+    text-decoration: none;
+    font-size: large;
+    border: 2px solid #2163c5;
+    border-style: double;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-a-computadoras:hover{
+    color: #5c86c5;
+    border-color: #5c86c5;
+}
+.img-grid{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img-1{
+    border: 2px solid #2163c5;
+}
+.img-2{
+    border: 2px solid #2163c5;
+}
+.img-3{
+    border: 2px solid #2163c5;
+}
+.img-4{
+    border: 2px solid #2163c5;
+}
+
+/* Sección de Vídeos */
+.videos-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Sección de "Contacto" */
+fieldset{
+    margin: 20px;
+    margin-left: 10px;
+}
+form{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+legend{
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+input{
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+label{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nacionalidad-telefono{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+textarea{
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+.form-text{
+    font-size: medium;
+    color: black;
+    margin-left: 10px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.submit{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.reset{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sección "FontAwesome"*/
+.Iconos{
+    color: #2163c5;
+}
+.Buscador{
+    padding: 10px;
+    background-color: transparent;
+    color: #2163c5;
+    border: #fff;
+    font-size: large;
+}
+.Carrito{
+    background-color: transparent;
+    color: #2163c5;
+    border: #fff;
+    font-size: large;
+}
+.Iconos-computadoras{
+padding: 10px;
+}
+.grid-view{
+    border: 1px solid rgb(63, 55, 55); 
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: aliceblue;
+    color: rgb(63, 55, 55);
+    margin: 1px;
+}
+.list-view{
+    border: 1px solid rgb(63, 55, 55);  
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: aliceblue;
+    color: rgb(63, 55, 55);
+    margin: 1px;
+}
+.grid-view:hover{
+    border-color: black;
+color: black;
+}
+.list-view:hover{
+    border-color: black;
+color: black;
+}
+
+/* Sección @media */
+@media screen and (max-width: 768px){
+    .videos-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 350px);
+        grid-template-areas: 
+        "video-1 video-2"
+        "video-3 video-4" 
+        ;
+    }
+    .video-1{
+        grid-area: src="https://www.youtube.com/embed/WR7SrkNEqtk";
+    }
+    .video-2{
+        grid-area: src="https://www.youtube.com/embed/81mhO9NLyNo";
+    }
+    .video-3{
+        grid-area: src="https://www.youtube.com/embed/dsA7gNuZWdM";
+    }
+}
+@media screen and (max-width: 768px){
+        .img-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, 250px);
+            grid-template-areas: 
+            "img-1 img-2"
+            "img-3 img-4" 
+            ;
+        }
+        .img-1{
+            grid-area:src="img/PC-1.jpg";
+        }
+        .img-2{
+            grid-area:src="img/PC-2.jpg";
+        }
+        .img-3{
+            grid-area:src="img/PC-3.jpg";  
+        }
+        .img-4{
+            grid-area:src="img/PC-4.jpg";
+    }
+}
+
