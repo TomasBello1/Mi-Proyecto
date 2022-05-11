@@ -1,0 +1,19 @@
+header{
+    background-color: white;
+    nav{
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        a{
+            padding: 5px;
+            margin: 10px;
+            font-size: large;
+            color: $color1;
+            text-decoration: none;
+            font-family: $font-family-Roboto;
+            &:hover{
+                color: $color2;
+            }
+        }
+    }
+}
